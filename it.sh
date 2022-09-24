@@ -28,9 +28,7 @@ echo "$5[5]─>>DDOS ATTACK WIFI" | lolcat
 echo "$6[6]─>>" | lolcat
 echo "$7[7]─>>" | lolcat
 echo "$8[8]─>>" | lolcat
-echo "$9[9]─>>" | lolcat
-echo "$10[10]─>>" | lolcat
-echo "$0[0]─>>EXIT" | lolcat
+echo "$9[9]─>>EXIT" | lolcat
 echo "**********************************************************************************"
 echo "╭─[MrXonee@root]" | lolcat
 read -p"╰─>> " pil
@@ -188,34 +186,6 @@ sleep 5
 fi
 
 if [ $pil = 9 ]
-then
-echo $i"Openning..."
-sleep 2
-clear
-sleep 2
-echo "##################################################################################"
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
-echo "**********************************************************************************"
-echo "[!]" | lolcat
-echo "##################################################################################"
-sleep 5
-fi
-
-if [ $pil = 10 ]
-then
-echo $i"Openning..."
-sleep 2
-clear
-sleep 2
-echo "##################################################################################"
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
-echo "**********************************************************************************"
-echo "[!]" | lolcat
-echo "##################################################################################"
-sleep 5
-fi
-
-if [ $pil = 0 ]
 then
 echo $i"Openning..."
 sleep 2
