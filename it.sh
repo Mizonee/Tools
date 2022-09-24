@@ -137,7 +137,7 @@ sleep 2
 echo "##################################################################################"
 toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
 echo "**********************************************************************************"
-echo "[!]RUNNING TOOLS DDOS ATTACK" | lolcat
+echo "[!]RUNNING TOOLS DDOS ATTACK WIFI" | lolcat
 echo "##################################################################################"
 sleep 5
 sudo python3 ddos.py
