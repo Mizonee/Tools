@@ -1,4 +1,3 @@
-from operator import ge
 import socket
 import requests
 import pprint
