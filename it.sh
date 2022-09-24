@@ -26,7 +26,7 @@ echo "$3[3]─>>PENETRATION TESTING WIFI FLUXION" | lolcat
 echo "$4[4]─>>VULNERABILITY SCANNING WEBSITE REDHAWK" | lolcat
 echo "$5[5]─>>DDOS ATTACK WIFI" | lolcat
 echo "$6[6]─>>DDOS ATTACK WEBSITE" | lolcat
-echo "$7[7]─>>" | lolcat
+echo "$7[7]─>>CHECK IP ADDRESS WEBSITE" | lolcat
 echo "$8[8]─>>" | lolcat
 echo "$9[9]─>>EXIT" | lolcat
 echo "**********************************************************************************"
@@ -169,9 +169,10 @@ sleep 2
 echo "##################################################################################"
 toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
 echo "**********************************************************************************"
-echo "[!]" | lolcat
+echo "[!]RUNNING TOOLS CHECK IP ADDRESS WEBSITE" | lolcat
 echo "##################################################################################"
 sleep 5
+python3 checkip.py
 fi
 
 if [ $pil = 8 ]
