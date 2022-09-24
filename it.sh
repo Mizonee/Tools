@@ -22,13 +22,13 @@ echo "***********************************************************"
 echo "[!] USE WIRELESS ADAPTER [!]" | lolcat
 echo "***********************************************************"
 echo "$1[1]─>>INSTALL ALL PACKAGE FOR RUNNING TOOLS" | lolcat
-echo "$2[2]─>>TOOLS CONTROL NETWORK EVILLIMITER" | lolcat
-echo "$3[3]─>>TOOLS CRACK WIFI FLUXION" | lolcat
-echo "$4[4]─>>TOOLS VULNERABILITY SCANNING REDHAWK" | lolcat
-echo "$5[5]─>>TOOLS" | lolcat
-echo "$6[6]─>>TOOLS" | lolcat
-echo "$7[7]─>>TOOLS" | lolcat
-echo "$8[8]─>>TOOLS" | lolcat
+echo "$2[2]─>>CONTROL NETWORK WIFI EVILLIMITER" | lolcat
+echo "$3[3]─>>PENETRATION TESTING WIFI FLUXION" | lolcat
+echo "$4[4]─>>VULNERABILITY SCANNING REDHAWK" | lolcat
+echo "$5[5]─>>" | lolcat
+echo "$6[6]─>>" | lolcat
+echo "$7[7]─>>" | lolcat
+echo "$8[8]─>>" | lolcat
 echo "$9[9]─>>EXIT" | lolcat
 echo "############################################################"
 echo "╭─[MrXonee@Nomor]" | lolcat
