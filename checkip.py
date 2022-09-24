@@ -7,7 +7,7 @@ hostname = input('Masukan Nama Domain Website : ')
 ip_address = socket.gethostbyname(hostname)
 
 request_url = 'https://geolocation-db.com/jsonp/' + ip_address
-response = requests.get(requests_url)
+response = requests.get(request_url)
 geolocation = response.content.decode()
 geolocation = geolocation.split("(")[1].strip(")")
 geolocation = json.loads(geolocation)
