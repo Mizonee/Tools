@@ -157,5 +157,7 @@ echo "[+]TERIMAKASIH SUDAH MEMAKAI TOOLS MrXonee" | lolcat
 echo "[+]SEE YOU BYE" | lolcat
 echo "##################################################################################"
 sleep 5
+airmon-ng stop wlan0mon
+service NetworkManager restart
 exit
 fi
