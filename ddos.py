@@ -41,12 +41,6 @@ def check_for_essid(essid, lst):
     return check_status
 
 # Basic user interface header
-print("\n##################################################################################")
-print("\nANONYMOUS INDONESIA @MrXonee")
-print("\n**********************************************************************************")
-print("\n[!]RUNNING TOOLS DDOS ATTACK WIFI")
-print("\n##################################################################################")
-print("\n****************************************************************")
 
 # If the user doesn't run the program with super user privileges, don't allow them to continue.
 if not 'SUDO_UID' in os.environ.keys():
