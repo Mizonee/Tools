@@ -25,9 +25,10 @@ echo "$2[2]─>>CONTROL NETWORK WIFI EVILLIMITER" | lolcat
 echo "$3[3]─>>PENETRATION TESTING WIFI FLUXION" | lolcat
 echo "$4[4]─>>VULNERABILITY SCANNING WEBSITE REDHAWK" | lolcat
 echo "$5[5]─>>DDOS ATTACK WIFI" | lolcat
-echo "$6[6]─>>DDOS ATTACK WEBSITE" | lolcat
+echo "$6[6]─>>DDOS ATTACK WEBSITE HTTP" | lolcat
 echo "$7[7]─>>CHECK IP ADDRESS WEBSITE" | lolcat
 echo "$8[8]─>>" | lolcat
+echo "$[8]─>>" | lolcat
 echo "$9[9]─>>EXIT" | lolcat
 echo "**********************************************************************************"
 echo "╭─[MrXonee@root]" | lolcat
@@ -68,6 +69,7 @@ apt install python3 -y
 apt install openssl -y
 apt install git -y
 apt install slowhttptest -y
+pip3 install slowloris -y
 echo "##################################################################################"
 echo "SEMUA PACKAGE BERHASIL DI INSTALL" | lolcat
 echo "##################################################################################"
@@ -173,6 +175,9 @@ echo "[!]RUNNING TOOLS CHECK IP ADDRESS WEBSITE" | lolcat
 echo "##################################################################################"
 sleep 5
 python3 checkip.py
+echo "╭─[Ketik Exit Jika Ingin Keluar]" | lolcat
+read -p"╰─>> " Exit
+$Exit
 fi
 
 if [ $pil = 8 ]
