@@ -17,9 +17,9 @@ toilet -f term "| |^^^^^^^^^^^] M ••|•• M" | lolcat
 toilet -f term "| |ΩΩ=======ΩΩ]   R • R" | lolcat
 toilet -f term "| |___________|     J" | lolcat
 toilet -f term "\_|_________|_/ GUNAKAN DENGAN BIJAK!!!" | lolcat
-echo "*************************************************"
-echo "[!] USE WIRELESS ADAPTER [!]" | lolcat
-echo "*************************************************"
+echo "**********************************************************************************"
+echo "[!] USE A USB WIRELESS ADAPTER [!]" | lolcat
+echo "**********************************************************************************"
 echo "$1[1]─>>INSTALL ALL PACKAGE FOR RUNNING TOOLS" | lolcat
 echo "$2[2]─>>CONTROL NETWORK WIFI EVILLIMITER" | lolcat
 echo "$3[3]─>>PENETRATION TESTING WIFI FLUXION" | lolcat
@@ -29,7 +29,7 @@ echo "$6[6]─>>" | lolcat
 echo "$7[7]─>>" | lolcat
 echo "$8[8]─>>" | lolcat
 echo "$9[9]─>>EXIT" | lolcat
-echo "*************************************************"
+echo "**********************************************************************************"
 echo "╭─[MrXonee@root]" | lolcat
 read -p"╰─>> " pil
 
