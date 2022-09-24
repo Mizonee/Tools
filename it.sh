@@ -25,13 +25,13 @@ echo "$1[1]─>>INSTALL ALL PACKAGE FOR RUNNING TOOLS" | lolcat
 echo "$2[2]─>>CONTROL NETWORK WIFI EVILLIMITER" | lolcat
 echo "$3[3]─>>PENETRATION TESTING WIFI FLUXION" | lolcat
 echo "$4[4]─>>VULNERABILITY SCANNING REDHAWK" | lolcat
-echo "$5[5]─>>" | lolcat
+echo "$5[5]─>>DDOS ATTACK WIFI" | lolcat
 echo "$6[6]─>>" | lolcat
 echo "$7[7]─>>" | lolcat
 echo "$8[8]─>>" | lolcat
 echo "$9[9]─>>EXIT" | lolcat
 echo "############################################################"
-echo "╭─[MrXonee@Nomor]" | lolcat
+echo "╭─[MrXonee@root]" | lolcat
 read -p"╰─>> " pil
 
 if [ $pil = 1 ]
@@ -126,6 +126,21 @@ sleep 5
 git clone https://github.com/Tuhinshubhra/RED_HAWK.git
 cd RED_HAWK
 php rhawk.php
+fi
+
+if [ $pil = 5 ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]RUNNING TOOLS DDOS ATTACK" | lolcat
+echo "##################################################################################"
+sleep 5
+sudo python3 ddos.py
 fi
 
 if [ $pil = 9 ]
