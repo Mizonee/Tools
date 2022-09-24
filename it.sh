@@ -88,9 +88,9 @@ echo "[!]RUNNING TOOLS EVILLIMITER" | lolcat
 echo "##################################################################################"
 sleep 5
 git clone https://github.com/bitbrute/evillimiter
+ifconfig eth0 down
 cd evillimiter
 python3 setup.py install
-ifconfig eth0 down
 evillimiter
 fi
 
