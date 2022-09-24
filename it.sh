@@ -23,12 +23,14 @@ echo "**************************************************************************
 echo "$1[1]─>>INSTALL ALL PACKAGE FOR RUNNING TOOLS" | lolcat
 echo "$2[2]─>>CONTROL NETWORK WIFI EVILLIMITER" | lolcat
 echo "$3[3]─>>PENETRATION TESTING WIFI FLUXION" | lolcat
-echo "$4[4]─>>VULNERABILITY SCANNING REDHAWK" | lolcat
+echo "$4[4]─>>VULNERABILITY SCANNING WEBSITE REDHAWK" | lolcat
 echo "$5[5]─>>DDOS ATTACK WIFI" | lolcat
 echo "$6[6]─>>" | lolcat
 echo "$7[7]─>>" | lolcat
 echo "$8[8]─>>" | lolcat
-echo "$9[9]─>>EXIT" | lolcat
+echo "$9[9]─>>" | lolcat
+echo "$10[10]─>>" | lolcat
+echo "$0[0]─>>EXIT" | lolcat
 echo "**********************************************************************************"
 echo "╭─[MrXonee@root]" | lolcat
 read -p"╰─>> " pil
@@ -67,6 +69,7 @@ apt install php-xml -y
 apt install python3 -y
 apt install openssl -y
 apt install git -y
+apt install slowhttptest -y
 echo "##################################################################################"
 echo "SEMUA PACKAGE BERHASIL DI INSTALL" | lolcat
 echo "##################################################################################"
@@ -142,7 +145,77 @@ sleep 5
 sudo python3 ddos.py
 fi
 
+if [ $pil = 6 ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]" | lolcat
+echo "##################################################################################"
+sleep 5
+fi
+
+if [ $pil = 7 ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]" | lolcat
+echo "##################################################################################"
+sleep 5
+fi
+
+if [ $pil = 8 ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]" | lolcat
+echo "##################################################################################"
+sleep 5
+fi
+
 if [ $pil = 9 ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]" | lolcat
+echo "##################################################################################"
+sleep 5
+fi
+
+if [ $pil = 10 ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]" | lolcat
+echo "##################################################################################"
+sleep 5
+fi
+
+if [ $pil = 0 ]
 then
 echo $i"Openning..."
 sleep 2
