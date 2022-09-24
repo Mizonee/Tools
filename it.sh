@@ -1,10 +1,12 @@
 #!/bin/bash
 
 clear
-echo "############################################################"
-toilet -f future "ANONYMOUS INDONESIA" | lolcat
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
 echo "Author : MrXonee" | lolcat
-echo "############################################################"
+echo "Github : https://github.com/MrXonee/Tools" | lolcat
+echo "##################################################################################"
 toilet -f term "   /\_/\ " | lolcat
 toilet -f term " =[ •~• ]= " | lolcat
 toilet -f term "    [\]_" | lolcat
@@ -15,12 +17,9 @@ toilet -f term "| |^^^^^^^^^^^] M ••|•• M" | lolcat
 toilet -f term "| |ΩΩ=======ΩΩ]   R • R" | lolcat
 toilet -f term "| |___________|     J" | lolcat
 toilet -f term "\_|_________|_/ GUNAKAN DENGAN BIJAK!!!" | lolcat
-echo "***********************************************************"
-echo "[#] YOU'RE NOT ALONE [#]" | lolcat
-echo "[#] WE ARE ANONYMOUS [#]" | lolcat
-echo "***********************************************************"
+echo "*************************************************"
 echo "[!] USE WIRELESS ADAPTER [!]" | lolcat
-echo "***********************************************************"
+echo "*************************************************"
 echo "$1[1]─>>INSTALL ALL PACKAGE FOR RUNNING TOOLS" | lolcat
 echo "$2[2]─>>CONTROL NETWORK WIFI EVILLIMITER" | lolcat
 echo "$3[3]─>>PENETRATION TESTING WIFI FLUXION" | lolcat
@@ -30,7 +29,7 @@ echo "$6[6]─>>" | lolcat
 echo "$7[7]─>>" | lolcat
 echo "$8[8]─>>" | lolcat
 echo "$9[9]─>>EXIT" | lolcat
-echo "############################################################"
+echo "*************************************************"
 echo "╭─[MrXonee@root]" | lolcat
 read -p"╰─>> " pil
 
