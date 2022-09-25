@@ -162,9 +162,7 @@ chmod +x GoldenEye/*
 cd GoldenEye
 echo "╭─[Masukan URL Website]" | lolcat
 read -p"╰─>> " url
-./goldeneye.py $url -w 129 -d
-gnome-terminal
-etherape
+./goldeneye.py $url -w 10 -d
 fi
 
 if [ $pil = 7 ]
