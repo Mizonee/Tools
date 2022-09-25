@@ -179,7 +179,7 @@ cd GoldenEye
 chmod +x goldeneye.py
 echo "╭─[Masukan URL Website]" | lolcat
 read -p"╰─>> " url
-./goldeneye.py $url -w 50 -d
+./goldeneye.py $url -w 150 -d
 fi
 
 if [ $pil = g ]
