@@ -20,22 +20,37 @@ toilet -f term "\_|_________|_/ GUNAKAN DENGAN BIJAK!!!" | lolcat
 echo "**********************************************************************************"
 echo "[!] USE A USB WIRELESS ADAPTER [!]" | lolcat
 echo "**********************************************************************************"
-echo "$1[1]─>>INSTALL ALL PACKAGE FOR RUNNING TOOLS" | lolcat
-echo "$2[2]─>>CONTROL NETWORK WIFI EVILLIMITER" | lolcat
-echo "$3[3]─>>PENETRATION TESTING WIFI FLUXION" | lolcat
-echo "$4[4]─>>VULNERABILITY SCANNING WEBSITE REDHAWK" | lolcat
-echo "$5[5]─>>DDOS ATTACK WIFI" | lolcat
-echo "$6[6]─>>DDOS ATTACK WEBSITE" | lolcat
-echo "$7[7]─>>SCANNING WEBSITE ADDRESS" | lolcat
-echo "$8[8]─>>" | lolcat
-echo "$a[a]─>>" | lolcat
-echo "$b[b]─>>" | lolcat
+echo "$a[a]─>>INSTALL ALL PACKAGE FOR RUNNING TOOLS" | lolcat
+echo "$b[b]─>>CONTROL NETWORK WIFI EVILLIMITER" | lolcat
+echo "$c[c]─>>PENETRATION TESTING WIFI FLUXION" | lolcat
+echo "$d[d]─>>VULNERABILITY SCANNING WEBSITE REDHAWK" | lolcat
+echo "$e[e]─>>DDOS ATTACK WIFI" | lolcat
+echo "$f[f]─>>DDOS ATTACK WEBSITE" | lolcat
+echo "$g[g]─>>SCANNING WEBSITE ADDRESS" | lolcat
+echo "$h[h]─>>" | lolcat
+echo "$i[i]─>>" | lolcat
+echo "$j[j]─>>" | lolcat
+echo "$k[k]─>>" | lolcat
+echo "$l[l]─>>" | lolcat
+echo "$m[m]─>>" | lolcat
+echo "$n[n]─>>" | lolcat
+echo "$o[o]─>>" | lolcat
+echo "$p[p]─>>" | lolcat
+echo "$q[q]─>>" | lolcat
+echo "$r[r]─>>" | lolcat
+echo "$s[s]─>>" | lolcat
+echo "$t[t]─>>" | lolcat
+echo "$u[u]─>>" | lolcat
+echo "$v[v]─>>" | lolcat
+echo "$w[w]─>>" | lolcat
+echo "$x[x]─>>" | lolcat
+echo "$y[y]─>>" | lolcat
 echo "$z[z]─>>EXIT" | lolcat
 echo "**********************************************************************************"
 echo "╭─[MrXonee@root]" | lolcat
 read -p"╰─>> " pil
 
-if [ $pil = 1 ]
+if [ $pil = a ]
 then
 echo $i"Openning... "
 sleep 2
@@ -79,7 +94,7 @@ sleep 5
 bash it.sh
 fi
 
-if [ $pil = 2 ]
+if [ $pil = b ]
 then
 echo $i"Openning..."
 sleep 2
@@ -98,7 +113,7 @@ python3 setup.py install
 evillimiter
 fi
 
-if [ $pil = 3 ]
+if [ $pil = c ]
 then
 echo $i"Openning..."
 sleep 2
@@ -115,7 +130,7 @@ cd fluxion
 bash fluxion.sh
 fi
 
-if [ $pil = 4 ]
+if [ $pil = d ]
 then
 echo $i"Openning..."
 sleep 2
@@ -132,7 +147,7 @@ cd RED_HAWK
 php rhawk.php
 fi
 
-if [ $pil = 5 ]
+if [ $pil = e ]
 then
 echo $i"Openning..."
 sleep 2
@@ -147,7 +162,7 @@ sleep 5
 sudo python3 ddos.py
 fi
 
-if [ $pil = 6 ]
+if [ $pil = f ]
 then
 echo $i"Openning..."
 sleep 2
@@ -169,7 +184,7 @@ read -p"╰─>> " url
 ./goldeneye.py $url -w 50 -d
 fi
 
-if [ $pil = 7 ]
+if [ $pil = g ]
 then
 echo $i"Openning..."
 sleep 2
@@ -187,7 +202,245 @@ read -p"╰─>> " bash it.sh
 $bash it.sh
 fi
 
-if [ $pil = 8 ]
+if [ $pil = h ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]" | lolcat
+echo "##################################################################################"
+sleep 5
+fi
+
+if [ $pil = i ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]" | lolcat
+echo "##################################################################################"
+sleep 5
+fi
+
+if [ $pil = j ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]" | lolcat
+echo "##################################################################################"
+sleep 5
+fi
+
+if [ $pil = k ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]" | lolcat
+echo "##################################################################################"
+sleep 5
+fi
+
+if [ $pil = l ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]" | lolcat
+echo "##################################################################################"
+sleep 5
+fi
+
+if [ $pil = m ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]" | lolcat
+echo "##################################################################################"
+sleep 5
+fi
+
+if [ $pil = n ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]" | lolcat
+echo "##################################################################################"
+sleep 5
+fi
+
+if [ $pil = o ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]" | lolcat
+echo "##################################################################################"
+sleep 5
+fi
+
+if [ $pil = p ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]" | lolcat
+echo "##################################################################################"
+sleep 5
+fi
+
+if [ $pil = q ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]" | lolcat
+echo "##################################################################################"
+sleep 5
+fi
+
+if [ $pil = r ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]" | lolcat
+echo "##################################################################################"
+sleep 5
+fi
+
+if [ $pil = s ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]" | lolcat
+echo "##################################################################################"
+sleep 5
+fi
+
+if [ $pil = t ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]" | lolcat
+echo "##################################################################################"
+sleep 5
+fi
+
+if [ $pil = u ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]" | lolcat
+echo "##################################################################################"
+sleep 5
+fi
+
+if [ $pil = v ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]" | lolcat
+echo "##################################################################################"
+sleep 5
+fi
+
+if [ $pil = w ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]" | lolcat
+echo "##################################################################################"
+sleep 5
+fi
+
+if [ $pil = x ]
+then
+echo $i"Openning..."
+sleep 2
+clear
+sleep 2
+echo "##################################################################################"
+toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+echo "**********************************************************************************"
+echo "[!]" | lolcat
+echo "##################################################################################"
+sleep 5
+fi
+
+if [ $pil = y ]
 then
 echo $i"Openning..."
 sleep 2
