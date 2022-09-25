@@ -174,9 +174,9 @@ echo "[!]RUNNING TOOLS CHECK IP ADDRESS WEBSITE" | lolcat
 echo "##################################################################################"
 sleep 5
 python3 checkip.py
-echo "╭─[Ketik Exit Jika Ingin Keluar]" | lolcat
-read -p"╰─>> " Exit
-$Exit = bash it.sh
+echo "╭─[Ketik bash it.sh Jika Ingin Kembali]" | lolcat
+read -p"╰─>> " bash it.sh
+$bash it.sh
 fi
 
 if [ $pil = 8 ]
