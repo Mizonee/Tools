@@ -28,7 +28,6 @@ echo "$5[5]─>>DDOS ATTACK WIFI" | lolcat
 echo "$6[6]─>>DDOS ATTACK WEBSITE HTTP" | lolcat
 echo "$7[7]─>>CHECK IP ADDRESS WEBSITE" | lolcat
 echo "$8[8]─>>" | lolcat
-echo "$[8]─>>" | lolcat
 echo "$9[9]─>>EXIT" | lolcat
 echo "**********************************************************************************"
 echo "╭─[MrXonee@root]" | lolcat
@@ -177,7 +176,7 @@ sleep 5
 python3 checkip.py
 echo "╭─[Ketik Exit Jika Ingin Keluar]" | lolcat
 read -p"╰─>> " Exit
-$Exit
+$Exit = bash it.sh
 fi
 
 if [ $pil = 8 ]
