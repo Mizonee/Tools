@@ -195,10 +195,10 @@ echo "[!]RUNNING TOOLS SCANNING WEBSITE ADDRESS" | lolcat
 echo "##################################################################################"
 sleep 5
 python3 checkip.py
-echo "╭─[Masukan Domain Website]" | lolcat
+echo "╭─[Masukan Nama Domain Website]" | lolcat
 read -p"╰─>> " url
 whois $url
-echo "╭─[Masukan Domain Website]" | lolcat
+echo "╭─[Masukan Nama Domain Website]" | lolcat
 read -p"╰─>> " url
 whatweb $url -v
 echo "╭─[Ketik bash it.sh Jika Ingin Kembali]" | lolcat
