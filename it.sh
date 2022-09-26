@@ -195,11 +195,15 @@ echo "[!]RUNNING TOOLS SCANNING WEBSITE ADDRESS" | lolcat
 echo "##################################################################################"
 sleep 5
 python3 checkip.py
+echo "╭─[Masukan Domain Website]" | lolcat
+read -p"╰─>> " url
+whois $url
+echo "╭─[Masukan Domain Website]" | lolcat
+read -p"╰─>> " url
+whatweb $url -v
 echo "╭─[Ketik bash it.sh Jika Ingin Kembali]" | lolcat
 read -p"╰─>> " back
-if [ $back = bash it.sh ]
-then
-bash it.sh
+$back
 fi
 
 if [ $pil = h ]
