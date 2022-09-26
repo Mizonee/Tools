@@ -196,8 +196,8 @@ echo "##########################################################################
 sleep 5
 python3 checkip.py
 echo "╭─[Ketik bash it.sh Jika Ingin Kembali]" | lolcat
-read -p"╰─>> " bash it.sh
-$bash it.sh
+read -p"╰─>> " back
+$back
 fi
 
 if [ $pil = h ]
@@ -213,6 +213,9 @@ echo "[!]RUNNING TOOLS EMAIL SCRAPER WEBSITE" | lolcat
 echo "##################################################################################"
 sleep 5
 python3 emailscraper.py
+echo "╭─[Ketik bash it.sh Jika Ingin Kembali]" | lolcat
+read -p"╰─>> " back
+$back
 fi
 
 if [ $pil = i ]
