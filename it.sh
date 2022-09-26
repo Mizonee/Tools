@@ -27,7 +27,7 @@ echo "$d[d]─>>VULNERABILITY SCANNING WEBSITE REDHAWK" | lolcat
 echo "$e[e]─>>DDOS ATTACK WIFI" | lolcat
 echo "$f[f]─>>DDOS ATTACK WEBSITE" | lolcat
 echo "$g[g]─>>SCANNING WEBSITE ADDRESS" | lolcat
-echo "$h[h]─>>" | lolcat
+echo "$h[h]─>>EMAIL SCRAPER WEBSITE" | lolcat
 echo "$i[i]─>>" | lolcat
 echo "$j[j]─>>" | lolcat
 echo "$k[k]─>>" | lolcat
@@ -209,9 +209,10 @@ sleep 2
 echo "##################################################################################"
 toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
 echo "**********************************************************************************"
-echo "[!]" | lolcat
+echo "[!]RUNNING TOOLS EMAIL SCRAPER WEBSITE" | lolcat
 echo "##################################################################################"
 sleep 5
+python3 emailscraper.py
 fi
 
 if [ $pil = i ]
