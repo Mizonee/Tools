@@ -7,7 +7,7 @@ import urllib.parse
 
 user_url = str(input('[+] Masukan URL : '))
 urls = deque([user_url])
-scrape_urls = set()
+scraped_urls = set()
 emails = set()
 count = 0
 limit = int(input('[+] Masukan limit pencarian : '))
