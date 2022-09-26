@@ -197,7 +197,7 @@ sleep 5
 python3 checkip.py
 echo "╭─[Ketik bash it.sh Jika Ingin Kembali]" | lolcat
 read -p"╰─>> " back
-$back
+$back = bash it.sh
 fi
 
 if [ $pil = h ]
