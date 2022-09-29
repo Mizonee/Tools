@@ -3,7 +3,7 @@
 clear
 echo "##################################################################################" | lolcat
 toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
-echo "**********************************************************************************" | lolcat
+echo "##################################################################################" | lolcat
 echo "Author : MrXonee" | lolcat
 echo "Github : https://github.com/MrXonee/Tools" | lolcat
 echo "##################################################################################" | lolcat
@@ -17,9 +17,9 @@ toilet -f term "| |^^^^^^^^^^^] M ••|•• M" | lolcat
 toilet -f term "| |ΩΩ=======ΩΩ]   R • R" | lolcat
 toilet -f term "| |___________|     J" | lolcat
 toilet -f term "\_|_________|_/ GUNAKAN DENGAN BIJAK!!!" | lolcat
-echo "**********************************************************************************" | lolcat
+echo "##################################################################################" | lolcat
 echo "[!] USE A USB WIRELESS ADAPTER [!]" | lolcat
-echo "**********************************************************************************" | lolcat
+echo "##################################################################################" | lolcat
 echo "$a[a]─>>INSTALL ALL PACKAGE FOR RUNNING TOOLS" | lolcat
 echo "$b[b]─>>CONTROL NETWORK WIFI EVILLIMITER" | lolcat
 echo "$c[c]─>>PENETRATION TESTING WIFI FLUXION" | lolcat
@@ -46,7 +46,7 @@ echo "$w[w]─>>" | lolcat
 echo "$x[x]─>>" | lolcat
 echo "$y[y]─>>" | lolcat
 echo "$z[z]─>>EXIT" | lolcat
-echo "**********************************************************************************" | lolcat
+echo "##################################################################################" | lolcat
 echo "╭─[MrXonee@root]" | lolcat
 read -p"╰─>> " pil
 
