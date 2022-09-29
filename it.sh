@@ -9,7 +9,7 @@ echo "Github : https://github.com/MrXonee/Tools" | lolcat
 echo "##################################################################################" | lolcat
 toilet -f term "   /\_/\     (\_/)" | lolcat
 toilet -f term " =[ •~• ]=   (•.•)" | lolcat
-toilet -f term "    [\]_     />_<\" | lolcat
+toilet -f term "    [\]_     <===>" | lolcat
 toilet -f term " /\---------/\      J" | lolcat
 toilet -f term "| |)  •  ~  • |   R • R" | lolcat
 toilet -f term "| |^^^^^^^^^^^| M ••|•• M" | lolcat
