@@ -21,16 +21,16 @@ echo "##########################################################################
 echo "[!] USE A USB WIRELESS ADAPTER [!]" | lolcat
 echo "##################################################################################" | lolcat
 echo "$a[a]─>>INSTALL ALL PACKAGE FOR RUNNING TOOLS" | lolcat
-echo "$b[b]─>>CONTROL NETWORK WIFI EVILLIMITER" | lolcat
-echo "$c[c]─>>PENETRATION TESTING WIFI FLUXION" | lolcat
-echo "$d[d]─>>VULNERABILITY SCANNING WEBSITE REDHAWK" | lolcat
+echo "$b[b]─>>CONTROL NETWORK WIFI [EVILLIMITER]" | lolcat
+echo "$c[c]─>>PENETRATION TESTING WIFI [FLUXION]" | lolcat
+echo "$d[d]─>>VULNERABILITY SCANNING WEBSITE [REDHAWK]" | lolcat
 echo "$e[e]─>>DDOS ATTACK WIFI" | lolcat
 echo "$f[f]─>>DDOS ATTACK WEBSITE" | lolcat
 echo "$g[g]─>>SCANNING WEBSITE ADDRESS" | lolcat
 echo "$h[h]─>>EMAIL SCRAPER WEBSITE" | lolcat
 echo "$i[i]─>>CREATE PAYLOAD FOR WINDOWS x64 FORMAT EXE" | lolcat
-echo "$j[j]─>>METASPLOIT" | lolcat
-echo "$k[k]─>>" | lolcat
+echo "$j[j]─>>RUNNING METASPLOIT" | lolcat
+echo "$k[k]─>>WHOAMI VPN/PROXY" | lolcat
 echo "$l[l]─>>" | lolcat
 echo "$m[m]─>>" | lolcat
 echo "$n[n]─>>" | lolcat
@@ -87,6 +87,7 @@ apt install git -y
 apt install slowhttptest -y
 apt install gnome-terminal -y
 apt install etherape -y
+sudo apt update && sudo apt install tar tor curl python3 python3-scapy network-manager -y
 echo "##################################################################################" | lolcat
 echo "SEMUA PACKAGE BERHASIL DI INSTALL" | lolcat
 echo "##################################################################################" | lolcat
@@ -288,9 +289,13 @@ sleep 2
 echo "##################################################################################" | lolcat
 toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
 echo "**********************************************************************************" | lolcat
-echo "[!]" | lolcat
+echo "[!]RUNNING TOOLS WHOAMI VPN/PROXY" | lolcat
 echo "##################################################################################" | lolcat
 sleep 5
+git clone https://github.com/omer-dogan/kali-whoami
+cd kali-whoami
+sudo make install
+kali-whoami --start
 fi
 
 if [ $pil = l ]
