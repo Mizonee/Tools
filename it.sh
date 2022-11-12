@@ -88,7 +88,7 @@ apt install slowhttptest -y
 apt install gnome-terminal -y
 apt install etherape -y
 apt install tor torbrowser-launcher -y
-sudo apt update && sudo apt install tar tor curl python3 python3-scapy network-manager -y
+apt install tar tor curl python3 python3-scapy network-manager -y
 echo "##################################################################################" | lolcat
 echo "SEMUA PACKAGE BERHASIL DI INSTALL" | lolcat
 echo "##################################################################################" | lolcat
