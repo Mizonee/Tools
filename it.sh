@@ -26,7 +26,7 @@ echo "$c[c]─>>PENETRATION TESTING WIFI [FLUXION]" | lolcat
 echo "$d[d]─>>VULNERABILITY SCANNING WEBSITE [REDHAWK]" | lolcat
 echo "$e[e]─>>DDOS ATTACK WIFI" | lolcat
 echo "$f[f]─>>DDOS ATTACK WEBSITE" | lolcat
-echo "$g[g]─>>SCANNING WEBSITE ADDRESS" | lolcat
+echo "$g[g]─>>INFORMATION GATHERING AND SCANNING WEBSITE ADDRESS" | lolcat
 echo "$h[h]─>>EMAIL SCRAPER WEBSITE" | lolcat
 echo "$i[i]─>>CREATE PAYLOAD FOR WINDOWS x64 FORMAT EXE" | lolcat
 echo "$j[j]─>>RUNNING METASPLOIT" | lolcat
