@@ -30,7 +30,7 @@ echo "$g[g]─>>SCANNING WEBSITE ADDRESS" | lolcat
 echo "$h[h]─>>EMAIL SCRAPER WEBSITE" | lolcat
 echo "$i[i]─>>CREATE PAYLOAD FOR WINDOWS x64 FORMAT EXE" | lolcat
 echo "$j[j]─>>RUNNING METASPLOIT" | lolcat
-echo "$k[k]─>>WHOAMI VPN/PROXY" | lolcat
+echo "$k[k]─>>VPN/PROXY [WHOAMI]" | lolcat
 echo "$l[l]─>>" | lolcat
 echo "$m[m]─>>" | lolcat
 echo "$n[n]─>>" | lolcat
@@ -296,7 +296,9 @@ sleep 5
 git clone https://github.com/omer-dogan/kali-whoami
 cd kali-whoami
 sudo make install
-kali-whoami --start
+echo "╭─[start/stop]" | lolcat
+read -p"╰─>> " vpn
+kali-whoami --$vpn
 fi
 
 if [ $pil = l ]
