@@ -296,7 +296,7 @@ sleep 5
 git clone https://github.com/omer-dogan/kali-whoami
 cd kali-whoami
 sudo make install
-echo "╭─[start/stop]" | lolcat
+echo "╭─[ketik start]" | lolcat
 read -p"╰─>> " vpn
 kali-whoami --$vpn
 fi
