@@ -113,8 +113,6 @@ ifconfig eth0 down
 cd evillimiter
 python3 setup.py install
 evillimiter
-else
-bash it.sh
 fi
 
 if [ $pil = c ]
@@ -132,8 +130,6 @@ sleep 5
 git clone https://github.com/FluxionNetwork/fluxion
 cd fluxion
 bash fluxion.sh
-else
-bash it.sh
 fi
 
 if [ $pil = d ]
@@ -151,8 +147,6 @@ sleep 5
 git clone https://github.com/Tuhinshubhra/RED_HAWK.git
 cd RED_HAWK
 php rhawk.php
-else
-bash it.sh
 fi
 
 if [ $pil = e ]
@@ -168,8 +162,6 @@ echo "[!]RUNNING TOOLS DDOS ATTACK WIFI" | lolcat
 echo "##################################################################################" | lolcat
 sleep 5
 sudo python3 ddos.py
-else
-bash it.sh
 fi
 
 if [ $pil = f ]
@@ -190,8 +182,6 @@ chmod +x goldeneye.py
 echo "╭─[Masukan URL Website]" | lolcat
 read -p"╰─>> " url
 ./goldeneye.py $url -w 150 -d
-else
-bash it.sh
 fi
 
 if [ $pil = g ]
@@ -226,8 +216,6 @@ echo "##########################################################################
 echo "╭─[Ketik bash it.sh Jika Ingin Kembali]" | lolcat
 read -p"╰─>> " back
 $back
-else
-bash it.sh
 fi
 
 if [ $pil = h ]
@@ -246,8 +234,6 @@ python3 emailscraper.py
 echo "╭─[Ketik bash it.sh Jika Ingin Kembali]" | lolcat
 read -p"╰─>> " back
 $back
-else
-bash it.sh
 fi
 
 if [ $pil = i ]
@@ -278,8 +264,6 @@ echo "##########################################################################
 echo "╭─[Ketik bash it.sh Jika Ingin Kembali]" | lolcat
 read -p"╰─>> " back
 $back
-else
-bash it.sh
 fi
 
 if [ $pil = j ]
@@ -295,8 +279,6 @@ echo "[!]RUNNING TOOLS METASPLOIT" | lolcat
 echo "##################################################################################" | lolcat
 sleep 1
 msfconsole
-else
-bash it.sh
 fi
 
 if [ $pil = k ]
@@ -317,8 +299,6 @@ sudo make install
 echo "╭─[ketik start]" | lolcat
 read -p"╰─>> " vpn
 kali-whoami --$vpn
-else
-bash it.sh
 fi
 
 if [ $pil = l ]
@@ -333,8 +313,6 @@ echo "**************************************************************************
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
 sleep 5
-else
-bash it.sh
 fi
 
 if [ $pil = m ]
@@ -349,8 +327,6 @@ echo "**************************************************************************
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
 sleep 5
-else
-bash it.sh
 fi
 
 if [ $pil = n ]
@@ -365,8 +341,6 @@ echo "**************************************************************************
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
 sleep 5
-else
-bash it.sh
 fi
 
 if [ $pil = o ]
@@ -381,8 +355,6 @@ echo "**************************************************************************
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
 sleep 5
-else
-bash it.sh
 fi
 
 if [ $pil = p ]
@@ -397,8 +369,6 @@ echo "**************************************************************************
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
 sleep 5
-else
-bash it.sh
 fi
 
 if [ $pil = q ]
@@ -413,8 +383,6 @@ echo "**************************************************************************
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
 sleep 5
-else
-bash it.sh
 fi
 
 if [ $pil = r ]
@@ -429,8 +397,6 @@ echo "**************************************************************************
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
 sleep 5
-else
-bash it.sh
 fi
 
 if [ $pil = s ]
@@ -445,8 +411,6 @@ echo "**************************************************************************
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
 sleep 5
-else
-bash it.sh
 fi
 
 if [ $pil = t ]
@@ -461,8 +425,6 @@ echo "**************************************************************************
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
 sleep 5
-else
-bash it.sh
 fi
 
 if [ $pil = u ]
@@ -477,8 +439,6 @@ echo "**************************************************************************
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
 sleep 5
-else
-bash it.sh
 fi
 
 if [ $pil = v ]
@@ -493,8 +453,6 @@ echo "**************************************************************************
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
 sleep 5
-else
-bash it.sh
 fi
 
 if [ $pil = w ]
@@ -509,8 +467,6 @@ echo "**************************************************************************
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
 sleep 5
-else
-bash it.sh
 fi
 
 if [ $pil = x ]
@@ -525,8 +481,6 @@ echo "**************************************************************************
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
 sleep 5
-else
-bash it.sh
 fi
 
 if [ $pil = y ]
@@ -541,8 +495,6 @@ echo "**************************************************************************
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
 sleep 5
-else
-bash it.sh
 fi
 
 if [ $pil = z ]
@@ -562,6 +514,4 @@ sleep 5
 airmon-ng stop wlan0mon
 service NetworkManager restart
 exit
-else
-bash it.sh
 fi
