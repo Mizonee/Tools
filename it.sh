@@ -193,7 +193,7 @@ sleep 2
 echo "##################################################################################" | lolcat
 toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
 echo "**********************************************************************************" | lolcat
-echo "[!]RUNNING TOOLS SCANNING WEBSITE ADDRESS" | lolcat
+echo "[!]RUNNING TOOLS INFORMATION GATHERING AND SCANNING WEBSITE" | lolcat
 echo "##################################################################################" | lolcat
 sleep 5
 python3 checkip.py
@@ -216,6 +216,8 @@ echo "##########################################################################
 echo "╭─[Ketik bash it.sh Jika Ingin Kembali]" | lolcat
 read -p"╰─>> " back
 $back
+else
+bash it.sh
 fi
 
 if [ $pil = h ]
