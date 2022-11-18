@@ -29,9 +29,9 @@ echo "$f[f]─>>DDOS ATTACK WEBSITE" | lolcat
 echo "$g[g]─>>INFORMATION GATHERING AND SCANNING WEBSITE" | lolcat
 echo "$h[h]─>>EMAIL SCRAPER WEBSITE" | lolcat
 echo "$i[i]─>>CREATE PAYLOAD FOR WINDOWS x64 FORMAT EXE" | lolcat
-echo "$j[j]─>>RUNNING METASPLOIT" | lolcat
+echo "$j[j]─>>METASPLOIT" | lolcat
 echo "$k[k]─>>VPN/PROXY [WHOAMI]" | lolcat
-echo "$l[l]─>>" | lolcat
+echo "$l[l]─>>WEBKILLER" | lolcat
 echo "$m[m]─>>" | lolcat
 echo "$n[n]─>>" | lolcat
 echo "$o[o]─>>" | lolcat
@@ -310,9 +310,13 @@ sleep 2
 echo "##################################################################################" | lolcat
 toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
 echo "**********************************************************************************" | lolcat
-echo "[!]" | lolcat
+echo "[!]RUNNING TOOLS WEBKILLER" | lolcat
 echo "##################################################################################" | lolcat
 sleep 5
+git clone https://github.com/ultrasecurity/webkiller
+cd webkiller
+pip3 install -r requirments.txt
+python3 webkiller.py
 fi
 
 if [ $pil = m ]
