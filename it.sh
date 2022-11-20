@@ -20,17 +20,17 @@ toilet -f term "\_|_________|_/ GUNAKAN DENGAN BIJAK!!!" | lolcat
 echo "##################################################################################" | lolcat
 echo "[!] USE A USB WIRELESS ADAPTER [!]" | lolcat
 echo "##################################################################################" | lolcat
-echo "$a[a]─>>INSTALL ALL PACKAGE FOR RUNNING TOOLS" | lolcat
-echo "$b[b]─>>CONTROL NETWORK WIFI [EVILLIMITER]" | lolcat
-echo "$c[c]─>>PENETRATION TESTING WIFI [FLUXION]" | lolcat
-echo "$d[d]─>>VULNERABILITY SCANNING WEBSITE [REDHAWK]" | lolcat
-echo "$e[e]─>>DDOS ATTACK WIFI" | lolcat
-echo "$f[f]─>>DDOS ATTACK WEBSITE" | lolcat
-echo "$g[g]─>>INFORMATION GATHERING AND SCANNING WEBSITE" | lolcat
-echo "$h[h]─>>EMAIL SCRAPER WEBSITE" | lolcat
-echo "$i[i]─>>CREATE PAYLOAD FOR WINDOWS x64 FORMAT EXE" | lolcat
-echo "$j[j]─>>METASPLOIT" | lolcat
-echo "$k[k]─>>VPN/PROXY [WHOAMI]" | lolcat
+echo "$a[01]─>>INSTALL ALL PACKAGE FOR RUNNING TOOLS" | lolcat
+echo "$b[02]─>>CONTROL NETWORK WIFI [EVILLIMITER]" | lolcat
+echo "$c[03]─>>PENETRATION TESTING WIFI [FLUXION]" | lolcat
+echo "$d[04]─>>VULNERABILITY SCANNING WEBSITE [REDHAWK]" | lolcat
+echo "$e[05]─>>DDOS ATTACK WIFI" | lolcat
+echo "$f[06]─>>DDOS ATTACK WEBSITE" | lolcat
+echo "$g[07]─>>INFORMATION GATHERING AND SCANNING WEBSITE" | lolcat
+echo "$h[08]─>>EMAIL SCRAPER WEBSITE" | lolcat
+echo "$i[09]─>>CREATE PAYLOAD FOR WINDOWS x64 FORMAT EXE" | lolcat
+echo "$j[10]─>>METASPLOIT" | lolcat
+echo "$k[11]─>>VPN/PROXY [WHOAMI]" | lolcat
 echo "$l[l]─>>WEBKILLER" | lolcat
 echo "$m[m]─>>" | lolcat
 echo "$n[n]─>>" | lolcat
@@ -50,7 +50,7 @@ echo "##########################################################################
 echo "╭─[MrXonee@root]" | lolcat
 read -p"╰─>> " pil
 
-if [ $pil = a ]
+if [ $pil = 01 ]
 then
 echo $i"Openning... "
 sleep 2
@@ -96,7 +96,7 @@ sleep 5
 bash it.sh
 fi
 
-if [ $pil = b ]
+if [ $pil = 02 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -266,7 +266,7 @@ read -p"╰─>> " back
 $back
 fi
 
-if [ $pil = j ]
+if [ $pil = 10 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -281,7 +281,7 @@ sleep 1
 msfconsole
 fi
 
-if [ $pil = k ]
+if [ $pil = 11 ]
 then
 echo $i"Openning..."
 sleep 2
