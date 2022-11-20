@@ -67,5 +67,6 @@ echo "SEMUA PACKAGE BERHASIL DI INSTALL" | lolcat
 echo "##################################################################################" | lolcat
 sleep 5
 cd Tools
-bash it.sh
+chmod +x it.sh
+./it.sh
 fi
