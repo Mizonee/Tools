@@ -20,7 +20,7 @@ toilet -f term "\_|_________|_/ GUNAKAN DENGAN BIJAK!!!" | lolcat
 echo "##################################################################################" | lolcat
 echo "[!] USE A USB WIRELESS ADAPTER [!]" | lolcat
 echo "##################################################################################" | lolcat
-echo "[01]─>>INSTALL ALL PACKAGES TO RUN TOOLS" | lolcat
+echo "[01]─>>INSTALL PACKAGES FOR RUNNING TOOLS" | lolcat
 echo "[02]─>>CONTROL NETWORK WIFI [EVILLIMITER]" | lolcat
 echo "[03]─>>PENETRATION TESTING WIFI [FLUXION]" | lolcat
 echo "[04]─>>VULNERABILITY SCANNING WEBSITE [REDHAWK]" | lolcat
