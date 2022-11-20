@@ -48,7 +48,7 @@ echo "$y[25]─>>" | lolcat
 echo "$z[00]─>>EXIT" | lolcat
 echo "##################################################################################" | lolcat
 echo "╭─[MrXonee@root]" | lolcat
-read -p"╰─>> " pil | lolcat
+read -p"╰─>> " pil
 
 if [ $pil = 01 ]
 then
@@ -180,7 +180,7 @@ git clone https://github.com/jseidl/GoldenEye
 cd GoldenEye
 chmod +x goldeneye.py
 echo "╭─[Masukan URL Website]" | lolcat
-read -p"╰─>> " url | lolcat
+read -p"╰─>> " url
 ./goldeneye.py $url -w 150 -d
 fi
 
@@ -199,22 +199,22 @@ sleep 5
 python3 checkip.py
 echo "##################################################################################" | lolcat
 echo "|─[Whois]" | lolcat
-echo "╭─[Masukan Nama Domain Website]" | lolcat
-read -p"╰─>> " url | lolcat
+echo "╭─[Masukan URL Website]" | lolcat
+read -p"╰─>> " url
 whois $url
 echo "##################################################################################" | lolcat
 echo "|─[Whatweb]" | lolcat
-echo "╭─[Masukan Nama Domain Website]" | lolcat
-read -p"╰─>> " url | lolcat
+echo "╭─[Masukan URL Website]" | lolcat
+read -p"╰─>> " url
 whatweb $url -v
 echo "##################################################################################" | lolcat
 echo "|─[Nmap]" | lolcat
 echo "╭─[Masukan Alamat IP Website]" | lolcat
-read -p"╰─>> " ip | lolcat
+read -p"╰─>> " ip
 nmap $ip
 echo "##################################################################################" | lolcat
 echo "╭─[Ketik ./it.sh Jika Ingin Kembali]" | lolcat
-read -p"╰─>> " back | lolcat
+read -p"╰─>> " back
 $back
 fi
 
@@ -232,7 +232,7 @@ echo "##########################################################################
 sleep 5
 python3 emailscraper.py
 echo "╭─[Ketik ./it.sh Jika Ingin Kembali]" | lolcat
-read -p"╰─>> " back | lolcat
+read -p"╰─>> " back
 $back
 fi
 
@@ -250,9 +250,9 @@ echo "##########################################################################
 sleep 5
 ifconfig
 echo "╭─[Masukan IP Address Komputer/Laptop]" | lolcat
-read -p"╰─>> " lhost | lolcat
+read -p"╰─>> " lhost
 echo "╭─[Masukan PORT]" | lolcat
-read -p"╰─>> " lport | lolcat
+read -p"╰─>> " lport
 echo "##################################################################################" | lolcat
 echo "[!]MOHON TUNGGU SAMPAI SELESAI" | lolcat
 echo "##################################################################################" | lolcat
@@ -262,7 +262,7 @@ echo "[!]SUCCESS CREATE PAYLOAD..." | lolcat
 echo "[!]CHECK PAYLOAD AT FOLDER Tools" | lolcat
 echo "##################################################################################" | lolcat
 echo "╭─[Ketik ./it.sh Jika Ingin Kembali]" | lolcat
-read -p"╰─>> " back | lolcat
+read -p"╰─>> " back
 $back
 fi
 
@@ -297,7 +297,7 @@ git clone https://github.com/omer-dogan/kali-whoami
 cd kali-whoami
 sudo make install
 echo "╭─[ketik start]" | lolcat
-read -p"╰─>> " vpn | lolcat
+read -p"╰─>> " vpn
 kali-whoami --$vpn
 fi
 
