@@ -31,21 +31,21 @@ echo "$h[08]─>>EMAIL SCRAPER WEBSITE" | lolcat
 echo "$i[09]─>>CREATE PAYLOAD FOR WINDOWS x64 FORMAT EXE" | lolcat
 echo "$j[10]─>>METASPLOIT" | lolcat
 echo "$k[11]─>>VPN/PROXY [WHOAMI]" | lolcat
-echo "$l[l]─>>WEBKILLER" | lolcat
-echo "$m[m]─>>" | lolcat
-echo "$n[n]─>>" | lolcat
-echo "$o[o]─>>" | lolcat
-echo "$p[p]─>>" | lolcat
-echo "$q[q]─>>" | lolcat
-echo "$r[r]─>>" | lolcat
-echo "$s[s]─>>" | lolcat
-echo "$t[t]─>>" | lolcat
-echo "$u[u]─>>" | lolcat
-echo "$v[v]─>>" | lolcat
-echo "$w[w]─>>" | lolcat
-echo "$x[x]─>>" | lolcat
-echo "$y[y]─>>" | lolcat
-echo "$z[z]─>>EXIT" | lolcat
+echo "$l[12]─>>WEBKILLER" | lolcat
+echo "$m[13]─>>" | lolcat
+echo "$n[14]─>>" | lolcat
+echo "$o[15]─>>" | lolcat
+echo "$p[16]─>>" | lolcat
+echo "$q[17]─>>" | lolcat
+echo "$r[18]─>>" | lolcat
+echo "$s[19]─>>" | lolcat
+echo "$t[20]─>>" | lolcat
+echo "$u[21]─>>" | lolcat
+echo "$v[22]─>>" | lolcat
+echo "$w[23]─>>" | lolcat
+echo "$x[24]─>>" | lolcat
+echo "$y[25]─>>" | lolcat
+echo "$z[00]─>>EXIT" | lolcat
 echo "##################################################################################" | lolcat
 echo "╭─[MrXonee@root]" | lolcat
 read -p"╰─>> " pil
@@ -115,7 +115,7 @@ python3 setup.py install
 evillimiter
 fi
 
-if [ $pil = c ]
+if [ $pil = 03 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -132,7 +132,7 @@ cd fluxion
 bash fluxion.sh
 fi
 
-if [ $pil = d ]
+if [ $pil = 04 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -149,7 +149,7 @@ cd RED_HAWK
 php rhawk.php
 fi
 
-if [ $pil = e ]
+if [ $pil = 05 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -164,7 +164,7 @@ sleep 5
 sudo python3 ddos.py
 fi
 
-if [ $pil = f ]
+if [ $pil = 06 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -184,7 +184,7 @@ read -p"╰─>> " url
 ./goldeneye.py $url -w 150 -d
 fi
 
-if [ $pil = g ]
+if [ $pil = 07 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -218,7 +218,7 @@ read -p"╰─>> " back
 $back
 fi
 
-if [ $pil = h ]
+if [ $pil = 08 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -236,7 +236,7 @@ read -p"╰─>> " back
 $back
 fi
 
-if [ $pil = i ]
+if [ $pil = 09 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -301,7 +301,7 @@ read -p"╰─>> " vpn
 kali-whoami --$vpn
 fi
 
-if [ $pil = l ]
+if [ $pil = 12 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -319,7 +319,7 @@ pip3 install -r requirments.txt
 python3 webkiller.py
 fi
 
-if [ $pil = m ]
+if [ $pil = 13 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -333,7 +333,7 @@ echo "##########################################################################
 sleep 5
 fi
 
-if [ $pil = n ]
+if [ $pil = 14 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -347,7 +347,7 @@ echo "##########################################################################
 sleep 5
 fi
 
-if [ $pil = o ]
+if [ $pil = 15 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -361,7 +361,7 @@ echo "##########################################################################
 sleep 5
 fi
 
-if [ $pil = p ]
+if [ $pil = 16 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -375,7 +375,7 @@ echo "##########################################################################
 sleep 5
 fi
 
-if [ $pil = q ]
+if [ $pil = 17 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -389,7 +389,7 @@ echo "##########################################################################
 sleep 5
 fi
 
-if [ $pil = r ]
+if [ $pil = 18 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -403,7 +403,7 @@ echo "##########################################################################
 sleep 5
 fi
 
-if [ $pil = s ]
+if [ $pil = 19 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -417,7 +417,7 @@ echo "##########################################################################
 sleep 5
 fi
 
-if [ $pil = t ]
+if [ $pil = 20 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -431,7 +431,7 @@ echo "##########################################################################
 sleep 5
 fi
 
-if [ $pil = u ]
+if [ $pil = 21 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -445,7 +445,7 @@ echo "##########################################################################
 sleep 5
 fi
 
-if [ $pil = v ]
+if [ $pil = 22 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -459,7 +459,7 @@ echo "##########################################################################
 sleep 5
 fi
 
-if [ $pil = w ]
+if [ $pil = 23 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -473,7 +473,7 @@ echo "##########################################################################
 sleep 5
 fi
 
-if [ $pil = x ]
+if [ $pil = 24 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -487,7 +487,7 @@ echo "##########################################################################
 sleep 5
 fi
 
-if [ $pil = y ]
+if [ $pil = 25 ]
 then
 echo $i"Openning..."
 sleep 2
@@ -501,7 +501,7 @@ echo "##########################################################################
 sleep 5
 fi
 
-if [ $pil = z ]
+if [ $pil = 00 ]
 then
 echo $i"Openning..."
 sleep 2
