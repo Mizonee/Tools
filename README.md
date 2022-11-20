@@ -11,5 +11,4 @@ chmod +x it.sh
 ./it.sh
 ```
 # Operating System Tested
-- Kali Linux
-- Termux
+- Kali Linux 2022.3
