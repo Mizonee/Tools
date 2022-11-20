@@ -20,32 +20,32 @@ toilet -f term "\_|_________|_/ GUNAKAN DENGAN BIJAK!!!" | lolcat
 echo "##################################################################################" | lolcat
 echo "[!] USE A USB WIRELESS ADAPTER [!]" | lolcat
 echo "##################################################################################" | lolcat
-echo "$a[01]─>>INSTALL ALL PACKAGE FOR RUNNING TOOLS" | lolcat
-echo "$b[02]─>>CONTROL NETWORK WIFI [EVILLIMITER]" | lolcat
-echo "$c[03]─>>PENETRATION TESTING WIFI [FLUXION]" | lolcat
-echo "$d[04]─>>VULNERABILITY SCANNING WEBSITE [REDHAWK]" | lolcat
-echo "$e[05]─>>DDOS ATTACK WIFI" | lolcat
-echo "$f[06]─>>DDOS ATTACK WEBSITE" | lolcat
-echo "$g[07]─>>INFORMATION GATHERING AND SCANNING WEBSITE" | lolcat
-echo "$h[08]─>>EMAIL SCRAPER WEBSITE" | lolcat
-echo "$i[09]─>>CREATE PAYLOAD FOR WINDOWS x64 FORMAT EXE" | lolcat
-echo "$j[10]─>>METASPLOIT" | lolcat
-echo "$k[11]─>>VPN/PROXY [WHOAMI]" | lolcat
-echo "$l[12]─>>WEBKILLER" | lolcat
-echo "$m[13]─>>" | lolcat
-echo "$n[14]─>>" | lolcat
-echo "$o[15]─>>" | lolcat
-echo "$p[16]─>>" | lolcat
-echo "$q[17]─>>" | lolcat
-echo "$r[18]─>>" | lolcat
-echo "$s[19]─>>" | lolcat
-echo "$t[20]─>>" | lolcat
-echo "$u[21]─>>" | lolcat
-echo "$v[22]─>>" | lolcat
-echo "$w[23]─>>" | lolcat
-echo "$x[24]─>>" | lolcat
-echo "$y[25]─>>" | lolcat
-echo "$z[00]─>>EXIT" | lolcat
+echo "[01]─>>INSTALL ALL PACKAGE FOR RUNNING TOOLS" | lolcat
+echo "[02]─>>CONTROL NETWORK WIFI [EVILLIMITER]" | lolcat
+echo "[03]─>>PENETRATION TESTING WIFI [FLUXION]" | lolcat
+echo "[04]─>>VULNERABILITY SCANNING WEBSITE [REDHAWK]" | lolcat
+echo "[05]─>>DDOS ATTACK WIFI" | lolcat
+echo "[06]─>>DDOS ATTACK WEBSITE" | lolcat
+echo "[07]─>>INFORMATION GATHERING AND SCANNING WEBSITE" | lolcat
+echo "[08]─>>EMAIL SCRAPER WEBSITE" | lolcat
+echo "[09]─>>CREATE PAYLOAD FOR WINDOWS x64 FORMAT EXE" | lolcat
+echo "[10]─>>METASPLOIT" | lolcat
+echo "[11]─>>VPN/PROXY [WHOAMI]" | lolcat
+echo "[12]─>>WEBKILLER" | lolcat
+echo "[13]─>>" | lolcat
+echo "[14]─>>" | lolcat
+echo "[15]─>>" | lolcat
+echo "[16]─>>" | lolcat
+echo "[17]─>>" | lolcat
+echo "[18]─>>" | lolcat
+echo "[19]─>>" | lolcat
+echo "[20]─>>" | lolcat
+echo "[21]─>>" | lolcat
+echo "[22]─>>" | lolcat
+echo "[23]─>>" | lolcat
+echo "[24]─>>" | lolcat
+echo "[25]─>>" | lolcat
+echo "[00]─>>EXIT" | lolcat
 echo "##################################################################################" | lolcat
 echo "╭─[MrXonee@root]" | lolcat
 read -p"╰─>> " pil
