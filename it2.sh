@@ -66,6 +66,5 @@ echo "##########################################################################
 echo "SEMUA PACKAGE BERHASIL DI INSTALL" | lolcat
 echo "##################################################################################" | lolcat
 sleep 5
-chmod +x it.sh
-./it.sh
+bash it.sh
 fi
