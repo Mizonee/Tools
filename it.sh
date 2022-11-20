@@ -52,7 +52,7 @@ read -p"╰─>> " pil
 
 if [ $pil = 01 ]
 then
-echo $i"Openning... "
+echo $i"Openning... " | lolcat
 sleep 2
 clear
 sleep 2
@@ -98,7 +98,7 @@ fi
 
 if [ $pil = 02 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -117,7 +117,7 @@ fi
 
 if [ $pil = 03 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -134,7 +134,7 @@ fi
 
 if [ $pil = 04 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -151,7 +151,7 @@ fi
 
 if [ $pil = 05 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -166,7 +166,7 @@ fi
 
 if [ $pil = 06 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -186,7 +186,7 @@ fi
 
 if [ $pil = 07 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -213,14 +213,14 @@ echo "╭─[Masukan Alamat IP Website]" | lolcat
 read -p"╰─>> " ip
 nmap $ip
 echo "##################################################################################" | lolcat
-echo "╭─[Ketik bash it.sh Jika Ingin Kembali]" | lolcat
+echo "╭─[Ketik ./it.sh Jika Ingin Kembali]" | lolcat
 read -p"╰─>> " back
 $back
 fi
 
 if [ $pil = 08 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -231,14 +231,14 @@ echo "[!]RUNNING TOOLS EMAIL SCRAPER WEBSITE" | lolcat
 echo "##################################################################################" | lolcat
 sleep 5
 python3 emailscraper.py
-echo "╭─[Ketik bash it.sh Jika Ingin Kembali]" | lolcat
+echo "╭─[Ketik ./it.sh Jika Ingin Kembali]" | lolcat
 read -p"╰─>> " back
 $back
 fi
 
 if [ $pil = 09 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -261,14 +261,14 @@ echo "##########################################################################
 echo "[!]SUCCESS CREATE PAYLOAD..." | lolcat
 echo "[!]CHECK PAYLOAD AT FOLDER Tools" | lolcat
 echo "##################################################################################" | lolcat
-echo "╭─[Ketik bash it.sh Jika Ingin Kembali]" | lolcat
+echo "╭─[Ketik ./it.sh Jika Ingin Kembali]" | lolcat
 read -p"╰─>> " back
 $back
 fi
 
 if [ $pil = 10 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -283,7 +283,7 @@ fi
 
 if [ $pil = 11 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -303,7 +303,7 @@ fi
 
 if [ $pil = 12 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -321,7 +321,7 @@ fi
 
 if [ $pil = 13 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -335,7 +335,7 @@ fi
 
 if [ $pil = 14 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -349,7 +349,7 @@ fi
 
 if [ $pil = 15 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -363,7 +363,7 @@ fi
 
 if [ $pil = 16 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -377,7 +377,7 @@ fi
 
 if [ $pil = 17 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -391,7 +391,7 @@ fi
 
 if [ $pil = 18 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -405,7 +405,7 @@ fi
 
 if [ $pil = 19 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -419,7 +419,7 @@ fi
 
 if [ $pil = 20 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -433,7 +433,7 @@ fi
 
 if [ $pil = 21 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -447,7 +447,7 @@ fi
 
 if [ $pil = 22 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -461,7 +461,7 @@ fi
 
 if [ $pil = 23 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -475,7 +475,7 @@ fi
 
 if [ $pil = 24 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -489,7 +489,7 @@ fi
 
 if [ $pil = 25 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
@@ -503,7 +503,7 @@ fi
 
 if [ $pil = 00 ]
 then
-echo $i"Openning..."
+echo $i"Openning..." | lolcat
 sleep 2
 clear
 sleep 2
