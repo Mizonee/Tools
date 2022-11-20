@@ -4,26 +4,11 @@ clear
 echo "##################################################################################" | lolcat
 toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
 echo "##################################################################################" | lolcat
-echo "Author : MrXonee" | lolcat
-echo "Github : https://github.com/MrXonee/Tools" | lolcat
-echo "##################################################################################" | lolcat
-toilet -f term "   /\_/\     (\_/)" | lolcat
-toilet -f term " =[ •~• ]=   (•.•)" | lolcat
-toilet -f term "    [\]_     <===>" | lolcat
-toilet -f term " /\---------/\      J" | lolcat
-toilet -f term "| |)  •  ~  • |   R • R" | lolcat
-toilet -f term "| |^^^^^^^^^^^| M ••|•• M" | lolcat
-toilet -f term "| |^^^^^^^^^^^] M ••|•• M" | lolcat
-toilet -f term "| |ΩΩ=======ΩΩ]   R • R" | lolcat
-toilet -f term "| |___________|     J" | lolcat
-toilet -f term "\_|_________|_/ GUNAKAN DENGAN BIJAK!!!" | lolcat
-echo "##################################################################################" | lolcat
-echo "[01]─>>INSTALL ALL PACKAGE FOR RUNNING TOOLS" | lolcat
-echo "##################################################################################" | lolcat
+echo "[1]─>>INSTALL ALL PACKAGE FOR RUNNING TOOLS" | lolcat
 echo "╭─[MrXonee@root]" | lolcat
 read -p"╰─>> " pil
 
-if [ $pil = 01 ]
+if [ $pil = 1 ]
 then
 echo $i"Openning... " | lolcat
 sleep 2
