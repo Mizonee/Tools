@@ -2,10 +2,10 @@
 
 clear
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "ANONYMOUS" | lolcat
 echo "##################################################################################" | lolcat
-echo "Author : MrXonee" | lolcat
-echo "Github : https://github.com/MrXonee/Tools" | lolcat
+echo "Author : Mizonee" | lolcat
+echo "Github : https://github.com/Mizonee/Tools" | lolcat
 echo "##################################################################################" | lolcat
 toilet -f term "   /\_/\     (\_/)" | lolcat
 toilet -f term " =[ •~• ]=   (•.•)" | lolcat
@@ -16,9 +16,9 @@ toilet -f term "| |^^^^^^^^^^^| M ••|•• M" | lolcat
 toilet -f term "| |^^^^^^^^^^^] M ••|•• M" | lolcat
 toilet -f term "| |ΩΩ=======ΩΩ]   R • R" | lolcat
 toilet -f term "| |___________|     J" | lolcat
-toilet -f term "\_|_________|_/ GUNAKAN DENGAN BIJAK!!!" | lolcat
+toilet -f term "\_|_________|_/ YOU'RE NOT ALONE!!!" | lolcat
 echo "##################################################################################" | lolcat
-echo "[!] USE A USB WIRELESS ADAPTER [!]" | lolcat
+echo "[!] WARNING [!]" | lolcat
 echo "##################################################################################" | lolcat
 echo "[01]─>>INSTALL PACKAGES FOR RUNNING TOOLS" | lolcat
 echo "[02]─>>CONTROL NETWORK WIFI [EVILLIMITER]" | lolcat
@@ -47,7 +47,7 @@ echo "[24]─>>" | lolcat
 echo "[25]─>>" | lolcat
 echo "[00]─>>EXIT" | lolcat
 echo "##################################################################################" | lolcat
-echo "╭─[MrXonee@root]" | lolcat
+echo "╭─[Mizonee@root]" | lolcat
 read -p"╰─>> " pil
 
 if [ $pil = 01 ]
@@ -57,7 +57,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]SEMUA PACKAGE AKAN DI INSTALL MOHON TUNGGU SAMPAI SELESAI" | lolcat
 echo "##################################################################################" | lolcat
@@ -103,7 +103,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]RUNNING TOOLS EVILLIMITER" | lolcat
 echo "##################################################################################" | lolcat
@@ -122,7 +122,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]RUNNING TOOLS FLUXION" | lolcat
 echo "##################################################################################" | lolcat
@@ -139,7 +139,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]RUNNING TOOLS REDHAWK" | lolcat
 echo "##################################################################################" | lolcat
@@ -156,7 +156,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]RUNNING TOOLS DDOS ATTACK WIFI" | lolcat
 echo "##################################################################################" | lolcat
@@ -171,7 +171,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]RUNNING TOOLS DDOS ATTACK WEBSITE" | lolcat
 echo "##################################################################################" | lolcat
@@ -191,7 +191,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]RUNNING TOOLS INFORMATION GATHERING AND SCANNING WEBSITE" | lolcat
 echo "##################################################################################" | lolcat
@@ -225,7 +225,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]RUNNING TOOLS EMAIL SCRAPER WEBSITE" | lolcat
 echo "##################################################################################" | lolcat
@@ -243,7 +243,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]RUNNING TOOLS CREATE PAYLOAD FOR WINDOWS x64" | lolcat
 echo "##################################################################################" | lolcat
@@ -273,7 +273,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]RUNNING TOOLS METASPLOIT" | lolcat
 echo "##################################################################################" | lolcat
@@ -288,7 +288,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]RUNNING TOOLS WHOAMI VPN/PROXY" | lolcat
 echo "##################################################################################" | lolcat
@@ -308,7 +308,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]RUNNING TOOLS WEBKILLER" | lolcat
 echo "##################################################################################" | lolcat
@@ -326,7 +326,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
@@ -340,7 +340,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
@@ -354,7 +354,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
@@ -382,7 +382,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
@@ -396,7 +396,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
@@ -410,7 +410,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
@@ -424,7 +424,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
@@ -438,7 +438,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
@@ -452,7 +452,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
@@ -466,7 +466,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
@@ -480,7 +480,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
@@ -494,7 +494,7 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "[!]" | lolcat
 echo "##################################################################################" | lolcat
@@ -508,10 +508,9 @@ sleep 2
 clear
 sleep 2
 echo "##################################################################################" | lolcat
-toilet -f future "ANONYMOUS INDONESIA @MrXonee" | lolcat
+toilet -f future "Mizonee" | lolcat
 echo "**********************************************************************************" | lolcat
 echo "##################################################################################" | lolcat
-echo "[+]TERIMAKASIH SUDAH MEMAKAI TOOLS MrXonee" | lolcat
 echo "[+]SEE YOU BYE" | lolcat
 echo "##################################################################################" | lolcat
 sleep 5
