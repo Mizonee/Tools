@@ -10,12 +10,12 @@ echo "##########################################################################
 toilet -f term "   /\_/\     (\_/)" | lolcat
 toilet -f term " =[ •~• ]=   (•.•)" | lolcat
 toilet -f term "    [\]_     <===>" | lolcat
-toilet -f term " /\---------/\      J" | lolcat
-toilet -f term "| |)  •  ~  • |   R • R" | lolcat
+toilet -f term " /\---------/\      E" | lolcat
+toilet -f term "| |)  •  ~  • |   Z • Z" | lolcat
 toilet -f term "| |^^^^^^^^^^^| M ••|•• M" | lolcat
 toilet -f term "| |^^^^^^^^^^^] M ••|•• M" | lolcat
-toilet -f term "| |ΩΩ=======ΩΩ]   R • R" | lolcat
-toilet -f term "| |___________|     J" | lolcat
+toilet -f term "| |ΩΩ=======ΩΩ]   Z • Z" | lolcat
+toilet -f term "| |___________|     E" | lolcat
 toilet -f term "\_|_________|_/ YOU'RE NOT ALONE!!!" | lolcat
 echo "##################################################################################" | lolcat
 echo "[!] WARNING [!]" | lolcat
